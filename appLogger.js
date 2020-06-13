@@ -1,4 +1,4 @@
-import { getAppStage, APP_STAGE } from "./appStage";
+const { getAppStage, APP_STAGE } = require("./appStage");
 
 const LOG_LEVEL = {
   debug: "debug",
