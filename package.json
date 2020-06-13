@@ -1,0 +1,16 @@
+{
+  "name": "js-common-helper",
+  "version": "1.0.0",
+  "description": "Common helper files for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://raslan@bitbucket.org/teamalpha94/js-common-helper.git"
+  },
+  "author": "Raslan Rauff",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/raslan/react-common-helper#readme"
+}
