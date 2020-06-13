@@ -19,4 +19,4 @@ function writeLog(tag, data, level = LOG_LEVEL.debug) {
   }
 }
 
-export { LOG_LEVEL, writeLog };
+module.exports = { LOG_LEVEL, writeLog };
