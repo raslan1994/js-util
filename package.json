@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://raslan@bitbucket.org/teamalpha94/js-common-helper.git"
+    "url": "git+https://github.com/raslan1994/js-util.git"
   },
   "author": "Raslan Rauff",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/raslan/react-common-helper#readme"
+  "homepage": "https://github.com/raslan1994/js-util.git"
 }
