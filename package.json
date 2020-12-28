@@ -1,5 +1,5 @@
 {
-  "name": "js-common-helper",
+  "name": "@raslan1994/js-common-helper",
   "version": "1.0.0",
   "description": "Common helper files for Javascript",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/raslan1994/js-util.git"
   },
-  "author": "Raslan Rauff",
+  "author": "raslan",
   "license": "ISC",
   "homepage": "https://github.com/raslan1994/js-util.git"
 }
