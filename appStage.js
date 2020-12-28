@@ -1,13 +1,13 @@
-const APP_STAGE = {
+const AppStage = {
   debug: "debug_stage",
   prod: "prod_stage",
 };
-let _stage = APP_STAGE.debug;
+let _stage = AppStage.debug;
 
 module.exports = {
   setAppStage: (stage) => {
     _stage = stage;
   },
   getAppStage: () => _stage,
-  APP_STAGE,
+  AppStage,
 };

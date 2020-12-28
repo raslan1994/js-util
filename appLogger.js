@@ -1,6 +1,6 @@
-const { getAppStage, APP_STAGE } = require("./appStage");
+const { getAppStage, AppStage } = require("./appStage");
 
-const LOG_LEVEL = {
+const LogLevel = {
   debug: "debug",
   error: "error",
   info: "info",
@@ -8,15 +8,15 @@ const LOG_LEVEL = {
 
 const writeLogTag = (tag) => `[${tag}] -> `;
 
-function writeLog(tag, data, level = LOG_LEVEL.debug) {
+function writeLog(tag, data, level = LogLevel.debug) {
   const appStage = getAppStage();
-  if (level === LOG_LEVEL.debug && appStage === APP_STAGE.debug) {
+  if (level === LogLevel.debug && appStage === AppStage.debug) {
     console.log(writeLogTag(tag), data);
-  } else if (level === LOG_LEVEL.error && appStage === APP_STAGE.debug) {
+  } else if (level === LogLevel.error && appStage === AppStage.debug) {
     console.error(writeLogTag(tag), data);
   } else {
     console.log(writeLogTag(tag), data);
   }
 }
 
-module.exports = { LOG_LEVEL, writeLog };
+module.exports = { LogLevel, writeLog };
