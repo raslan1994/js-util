@@ -1,5 +1,5 @@
 {
-  "name": "@raslan1994/js-common-helper",
+  "name": "@raslan/js-util",
   "version": "1.0.0",
   "description": "Common helper files for Javascript",
   "main": "index.js",
@@ -10,7 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/raslan1994/js-util.git"
   },
-  "author": "raslan",
+  "keywords": [
+    "js-util",
+    "logger",
+    "app-stage"
+  ],
+  "author": "raslan1994",
   "license": "ISC",
-  "homepage": "https://github.com/raslan1994/js-util.git"
+  "bugs": {
+    "url": "https://github.com/raslan1994/js-util/issues"
+  },
+  "homepage": "https://github.com/raslan1994/js-util",
+  "publishConfig": {
+    "access": "public"
+  }
 }
